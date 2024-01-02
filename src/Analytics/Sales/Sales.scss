@@ -5,8 +5,8 @@
   height: 30%;
   margin: 50px auto;
 
-  @media screen and (max-width: 400px) {
-    height: 100vh;
+  @media screen and (max-width: 600px) {
+    height: auto;
   }
 
   .sale-box {
@@ -16,13 +16,17 @@
     align-items: center;
     width: max(30%, 330px);
 
-    @media screen and (max-width: 400px) {
-      height: 30%;
+    @media screen and (max-width: 600px) {
+      height: auto;
     } 
 
     .doughnut {
       width: 70%;
-      height: 70%;   
+      height: 70%;
+
+      @media screen and (max-width: 600px) {
+        height: 30vh;
+      }
     }
 
     div {
@@ -52,8 +56,8 @@
     width: max(30%, 330px);
     height: 100%;
 
-    @media screen and (max-width: 400px) {
-      height: 30%;
+    @media screen and (max-width: 600px) {
+      height: auto;
     }  
 
     h2 {

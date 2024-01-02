@@ -5,8 +5,8 @@
   align-items: center;
   height: 20vh;
 
-  @media screen and (max-width: 400px) {
-    height: 30vh;
+  @media screen and (max-width: 600px) {
+    height: 60vh;
   }
 
   .stats-box{
@@ -19,7 +19,7 @@
     font-size: 1.1em;
     color: hsl(248, 13%, 42%);
 
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 600px) {
       height: 20%;
     }
 
